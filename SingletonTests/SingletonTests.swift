@@ -12,8 +12,14 @@ class SingletonTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testUser() {
         let subject = User(name: "Trump", password: "Toupee")
         subject.logout()
+    }
+    
+    func testConfig() {
+        let subject = Config.sharedInstance
+        subject.reset(data: ConfigData(apiKey: "blob", apiSecret: "fish"))
+        XCTAssertEqual(subject.getHash(), "blobfish")
     }
 }

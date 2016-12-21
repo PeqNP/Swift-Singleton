@@ -14,6 +14,7 @@
 		0739AA681E0B297600DDD1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0739AA661E0B297600DDD1DE /* LaunchScreen.storyboard */; };
 		0739AA731E0B297600DDD1DE /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739AA721E0B297600DDD1DE /* SingletonTests.swift */; };
 		0739AA7E1E0B2ACF00DDD1DE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0739AA7D1E0B2ACF00DDD1DE /* User.swift */; };
+		07B51F911E0B35A8001382C8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B51F901E0B35A8001382C8 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0739AA721E0B297600DDD1DE /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
 		0739AA741E0B297600DDD1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0739AA7D1E0B2ACF00DDD1DE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		07B51F901E0B35A8001382C8 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				0739AA661E0B297600DDD1DE /* LaunchScreen.storyboard */,
 				0739AA691E0B297600DDD1DE /* Info.plist */,
 				0739AA7D1E0B2ACF00DDD1DE /* User.swift */,
+				07B51F901E0B35A8001382C8 /* Config.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0739AA601E0B297600DDD1DE /* ViewController.swift in Sources */,
+				07B51F911E0B35A8001382C8 /* Config.swift in Sources */,
 				0739AA5E1E0B297600DDD1DE /* AppDelegate.swift in Sources */,
 				0739AA7E1E0B2ACF00DDD1DE /* User.swift in Sources */,
 			);

@@ -8,7 +8,7 @@
  
  This shows a method to prevent others from initializing an instance of the User class when not testing, but still providing the ability to create an instance of the User at test time.
  
- 
+ This is a very ugly way of doing it.
  
  @copyright © 2016 Upstart Illustration LLC. All rights reserved.
  */
